@@ -1,0 +1,49 @@
+/* Set the background color of the page */
+body {
+  background-color: #333;
+}
+
+/* Style the game container */
+#game-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 5px solid #ccc;
+  position: relative;
+}
+
+/* Style the score display */
+#score {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style the game over message */
+#game-over {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  display: none;
+}
+
+/* Style the snake and food objects */
+.snake, .food {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: #0f0;
+  border-radius: 50%;
+}
+
+/* Style the snake head */
+.snake-head {
+  background-color: #00f;
+}
+
+/* Style the snake tail */
+.snake-tail {
+  background-color: #0f0;
+}
